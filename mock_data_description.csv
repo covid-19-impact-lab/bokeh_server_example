@@ -1,0 +1,40 @@
+topic,subtopic,new_name,nice name,label,type,categories,ordered
+beliefs,transmission,belief_infected,,What do you think is the probability of yourself getting infected with the coronavirus in the next two months?,Categorical,"no chance, very unlikely, unlikely, between big and small, likely, very likely, very sure, has already happened",TRUE
+beliefs,transmission,belief_infect_others,,What do you think is the probability of yourself getting infected with the coronavirus and passing it on to others in the next two months?,Categorical,"no chance, very unlikely, unlikely, between big and small, likely, very likely, very sure, has already happened",TRUE
+beliefs,policy,belief_quarantaine,,What do you think is the probability of you being quarantained (with or without symptoms) in the next two months?,Categorical,"no chance, very unlikely, unlikely, between big and small, likely, very likely, very sure, has already happened",TRUE
+,,,,,,,
+health behaviors,,avoid_crowded,,Have you avoided crowded places in the last seven days?,bool,,
+health behaviors,,keep_distance,,Have you kept a distance of at least 2m from other people in the last seven days?,bool,,
+health behaviors,,wash_hands,,Have you washed your hands more often and for longer in the last seven days?,bool,,
+health behaviors,,other,,Other health behavior: _____,str,,
+,,,,,,,
+beliefs,efficacy of health behaviors,wear_mask,,"In your opinion, how effective is wearing a mask when it comes to protecting yourself against the coronavirus?",Categorical,"not effective at all, not very effective, somewhat effective, effective, very effective",TRUE
+beliefs,efficacy of health behaviors,wash_hands_more,,"In your opinion, how effective is washing your hands or using desinfectant when it comes to protecting yourself against the coronavirus?",Categorical,"not effective at all, not very effective, somewhat effective, effective, very effective",TRUE
+beliefs,efficacy of health behaviors,curfew,,"In your opinion, how effective is a curfew for the general population when it comes to protecting yourself against the coronavirus?",Categorical,"not effective at all, not very effective, somewhat effective, effective, very effective",TRUE
+beliefs,efficacy of health behaviors,pray,,"In your opinion, how effective is a praying when it comes to protecting yourself against the coronavirus?",Categorical,"not effective at all, not very effective, somewhat effective, effective, very effective",TRUE
+,,,,,,,
+compliance,,comply_curfew,,Would you comply with a curfew?,Categorical,"yes, no, critical occupation",FALSE
+compliance,reasons for compliance,comply_bc_civic,,I would comply with a curfew because I see it as my civic duty.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+compliance,reasons for compliance,comply_bc_fear_punished,,I would comply with a curfew out of fear of being punished.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+compliance,reasons for compliance,comply_bc_protect_self,,I would comply with a curfew to protect myself from being infected.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+compliance,reasons for compliance,comply_bc_protect_close,,I would comply with a curfew to protect those close to me.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+compliance,reasons for compliance,comply_bc_protect_all,,I would comply with a curfew to protect others in general.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+compliance,reasons for compliance,comply_bc_protect_vulnerable,,I would comply with a curfew to protect vulnerable groups.,Categorical,"don’t agree at all, somewhat disagree, neither disagree nor agree, agree somewhat, agree fully",TRUE
+,,,,,,,
+,,,,,,,
+beliefs,duration of restrictions,p_lift_before_one_month,,What is the probability of the current restrictions to be lifted within the next month?,int,,
+beliefs,duration of restrictions,p_lift_in_1_to_2_months,,What is the probability of the current restrictions to be lifted between 1 month and 2 months from today?,int,,
+beliefs,duration of restrictions,p_lift_in_2_to_4_months,,What is the probability of the current restrictions to be lifted between 2 months and  4 months from today?,int,,
+beliefs,duration of restrictions,p_lift_in_4_to_8_months,,What is the probability of the current restrictions to be lifted between 4 and 8 months from today?,int,,
+beliefs,duration of restrictions,p_lift_in_8_to_12_months,,What is the probability of the current restrictions to be lifted between 8 and 12 months from today?,int,,
+beliefs,duration of restrictions,p_lift_later_than_one_year,,What is the probability of the current restrictions to last for longer than a year?,int,,
+,,,,,,,
+work situation,before,labor_before,,What description describes your situation best before the outbreak of coronavirus?,Categorical,"salaried employee, entrepreneur, unemployed, retired, social assistance, student, homemaker",FALSE
+work situation,before,worked_before,,Was working before the coronavirus outbreak,bool,,
+,,,,,,,
+work situation,before,hours_before_office,,How many hours did you work at your workplace before the current outbreak?,int,,
+work situation,before,hours_before_home,,How many hours did you work at home before the current outbreak?,int,,
+work situation,after,hours_after_office,,How many hours did you work at your workplace after the current outbreak?,int,,
+work situation,after,hours_after_home,,How many hours did you work at home after the current outbreak?,int,,
+,,,,,,,
+satisfaction with government,,trust_in_gov,,How much do you trust the government to handle the current situation well,Categorical,"0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",TRUE

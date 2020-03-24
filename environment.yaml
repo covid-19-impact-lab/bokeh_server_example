@@ -1,0 +1,21 @@
+name: covid-dashboard
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+  - python=3.7
+  - pip=19.0.3
+  - pandas>=1.0
+  - numpy
+  - scipy
+  - seaborn>=0.10
+  - jupyterlab
+  - pdbpp
+  - bokeh>=2.0
+  - pip:
+    - black
+    - blackcellmagic
+    - pre-commit
